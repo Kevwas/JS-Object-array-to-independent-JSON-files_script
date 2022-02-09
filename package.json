@@ -1,0 +1,15 @@
+{
+  "name": "thehouse_script",
+  "version": "1.0.0",
+  "description": "A script for converting js objects from the array in data.js to independent json files in the json_data folder",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js && npx prettier --write ./json_data",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Ariza",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
+}
